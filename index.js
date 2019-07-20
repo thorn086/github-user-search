@@ -46,12 +46,10 @@ function userRepos(userResponseJson){
 
     $('#results').removeClass('hidden');
 }
- function resetForm(){
+
+function resetForm(){
     $('#js-form').trigger('reset');
     
-    
-
-
- }
+}
 
 $(submitForm);
