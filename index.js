@@ -35,6 +35,8 @@ function userRepos(userResponseJson){
     console.log(userResponseJson);
     
     $('#results-list').empty();
+    $('#error').empty();
+
 
     for (let i =0; i < userResponseJson.length; i ++){
         $('#results-list').append(
@@ -46,6 +48,9 @@ function userRepos(userResponseJson){
 }
  function resetForm(){
     $('#js-form').trigger('reset');
+    
+    
+
 
  }
 
